@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #222;
+}
+.crud{
+    width: 80%;
+    margin: auto;
+}
+.crud .head{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+input{
+    padding: 10px;
+    background-color: #111;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+}
+input:focus{
+    transform: scale(1.1);
+    background-color: #000;
+}
+.inputs .price{
+    width: 87%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.inputs .price #total{
+    padding: 5px;
+    color: #fff;
+    background-color: #ff0000c0;
+    border-radius: 4px;
+    font-size: 14px;
+    position: relative;
+}
+.inputs .price #total::before{
+    content: 'Total:';
+}
+button{
+    width: 100%;
+    color: #fff;
+    background-color: #390053;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+button:hover{
+    letter-spacing: 1px;
+    background-color: #390053b7;
+}
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+.btnSearch button{
+    width: 45%;
+}
+table{
+    width: 100%;
+    color: #fff;
+    margin-top: 25px;
+}
+table tr{
+    text-align: center;
+}
+table #tbody button{
+    width: 95%;
+}
+table #tbody button:hover{
+    letter-spacing: 0;
+}
